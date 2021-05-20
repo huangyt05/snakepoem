@@ -67,10 +67,6 @@ function draw() {
 }
 
 function endGame(){
-  buttonOne = createButton('Show Poem');
-//   button.parent(canvas);
-//   buttonOne.position(0,0);
-  buttonOne.mousePressed(directTo);
   noLoop();
 }
 
